@@ -2,10 +2,7 @@
   "presets": [
     ["@babel/env",
     {
-      "targets":{
-        "edge": "18",
-        "chrome": "85"
-      }
+      "debug": true
     }]
   ],
   "plugins": [
