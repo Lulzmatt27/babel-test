@@ -1,0 +1,14 @@
+{
+  "presets": [
+    ["@babel/env",
+    {
+      "targets":{
+        "edge": "18",
+        "chrome": "85"
+      }
+    }]
+  ],
+  "plugins": [
+    "@babel/proposal-class-properties"
+  ]
+}
