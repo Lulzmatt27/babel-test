@@ -1,16 +1,7 @@
-import "core-js";
+import React from 'react'
+import ReactDom from 'react-dom';
 
-class App{
-  run = async({...test}) =>{
-        const name = 'Name';
-        console.log(`value name: ${name}`);
-        console.log(`test: ${test}`);
-        console.log([1,2,[3,4], 5, [6,7]].flat());
+const App = () => <div>App</div>;
 
-  }
- 
-}
+ReactDom.render(<App/>, document.getElementsById('root'));
 
-const app = new App();
-
-app.run({a:1, b:2}).then(()=>console.log('done')).catch((err)=>console.error('error', error));
